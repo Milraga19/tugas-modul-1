@@ -18,7 +18,7 @@
     function hitung_vokal_konsonan($kata)
     {
         $jml_kata = strlen($kata) - 1;
-        $huruf_vokal = ['a', 'i', 'u', 'e', 'o'];
+        $huruf_vokal = ['a', 'i', 'u', 'e', 'o','A','I','U','E','O'];
         $jumlah_vokal = 0;
         $jumlah_konsonan = 0;
 
