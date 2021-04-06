@@ -37,7 +37,7 @@
         $jumlah_konsonan = 0;
 
         for ($i = 0; $i <= $jml_kata; $i++) {
-            if (ctype_alpha($kata[$i]) && in_array($kata[$i], $huruf_vokal)) {
+            if (in_array($kata[$i], $huruf_vokal)) {
                 $jumlah_vokal++;
             } else {
                 // $jumlah_konsonan++;
